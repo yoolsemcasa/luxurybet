@@ -2,41 +2,28 @@ from database.init_db import init_database
 
 from logs.logger import logger
 
-from core.scheduler import Scheduler
-
 from core.version import VERSION
 
-from bots.telegram_bot import TelegramBot
+from core.application import Application
 
-from bots.discord_bot import DiscordBot
+from collector.aviator import AviatorCollector
+from collector.mines import MinesCollector
 
-from services.notifier import Notifier
 
+app = Application()
 
-# ==========================
-# Instâncias Globais
-# ==========================
-
-scheduler = Scheduler()
-
-telegram = TelegramBot()
-
-discord = DiscordBot()
-
-notifier = Notifier()
-
-# ==========================
-# Tarefas do Scheduler
-# ==========================
 
 def heartbeat():
 
     logger.info("LuxuryBET Online")
 
 
-# ==========================
-# Inicialização do Sistema
-# ==========================
+def collector_job():
+
+    resultados = app.collector_manager.execute()
+
+    logger.info(resultados)
+
 
 def startup():
 
@@ -46,36 +33,34 @@ def startup():
 
     logger.info("Inicializando sistema...")
 
-    # Banco de Dados
     init_database()
 
     logger.info("Banco SQLite iniciado.")
 
-    # Bots
-    telegram.start()
+    app.initialize()
 
-    discord.start()
+    app.collector_manager.register(AviatorCollector())
 
-    notifier.register_telegram(telegram)
+    app.collector_manager.register(MinesCollector())
 
-    notifier.register_discord(discord)
-
-    notifier.send(
-
-    "LuxuryBET",
-
-    "Sistema iniciado com sucesso."
-
-    )
-
-    # Scheduler
-    scheduler.add_task(
+    app.scheduler.add_task(
         "heartbeat",
         10,
         heartbeat
     )
 
-    scheduler.start()
+    app.scheduler.add_task(
+        "collector",
+        5,
+        collector_job
+    )
+
+    app.scheduler.start()
+
+    app.notifier.send(
+        "LuxuryBET",
+        "Sistema iniciado com sucesso."
+    )
 
     logger.info("Sistema iniciado.")
 

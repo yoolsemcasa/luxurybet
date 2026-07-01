@@ -1,14 +1,16 @@
 from logs.logger import logger
 
-from core.startup import scheduler, telegram
+from core.startup import app
 
 
 def shutdown():
 
     logger.info("Encerrando sistema...")
 
-    telegram.stop()
+    app.telegram.stop()
 
-    scheduler.stop()
+    app.discord.stop()
+
+    app.scheduler.stop()
 
     logger.info("LuxuryBET encerrado.")
