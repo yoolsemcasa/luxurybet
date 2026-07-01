@@ -1,0 +1,8 @@
+requests
+python-dotenv
+pyTelegramBotAPI
+discord.py
+rich
+colorama
+schedule
+sqlalchemy

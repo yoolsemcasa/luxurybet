@@ -1,0 +1,97 @@
+2026-07-01 11:02:40,808 | INFO | =======================================
+2026-07-01 11:02:40,830 | INFO | Luxury iniciando...
+2026-07-01 11:02:40,834 | INFO | Banco SQLite carregado.
+2026-07-01 11:02:40,836 | INFO | Luxury iniciado com sucesso.
+2026-07-01 11:02:40,838 | INFO | =======================================
+2026-07-01 11:03:08,404 | INFO | =======================================
+2026-07-01 11:03:08,435 | INFO | Luxury iniciando...
+2026-07-01 11:03:08,474 | INFO | Banco SQLite carregado.
+2026-07-01 11:03:08,477 | INFO | Luxury iniciado com sucesso.
+2026-07-01 11:03:08,478 | INFO | =======================================
+2026-07-01 11:03:08,481 | ERROR | Este é um erro de teste.
+2026-07-01 11:07:02,448 | INFO | ============================================================
+2026-07-01 11:07:02,480 | INFO | LuxuryBET v0.1.0
+2026-07-01 11:07:02,487 | INFO | Inicializando sistema...
+2026-07-01 11:07:02,500 | INFO | Banco SQLite iniciado.
+2026-07-01 11:07:02,528 | INFO | Scheduler iniciado.
+2026-07-01 11:07:02,536 | INFO | Sistema iniciado.
+2026-07-01 11:07:02,546 | INFO | ============================================================
+2026-07-01 11:19:00,955 | INFO | ============================================================
+2026-07-01 11:19:00,977 | INFO | LuxuryBET v0.1.0
+2026-07-01 11:19:00,978 | INFO | Inicializando sistema...
+2026-07-01 11:19:00,986 | INFO | Banco SQLite iniciado.
+2026-07-01 11:19:00,987 | INFO | Tarefa registrada: heartbeat
+2026-07-01 11:19:00,993 | INFO | Loop do Scheduler iniciado.
+2026-07-01 11:19:00,994 | INFO | Scheduler iniciado.
+2026-07-01 11:19:00,999 | INFO | LuxuryBET Online
+2026-07-01 11:19:01,001 | INFO | Sistema iniciado.
+2026-07-01 11:19:01,003 | INFO | ============================================================
+2026-07-01 11:19:08,406 | INFO | Encerrando sistema...
+2026-07-01 11:19:08,411 | INFO | Scheduler parado.
+2026-07-01 11:19:08,416 | INFO | LuxuryBET encerrado.
+2026-07-01 11:27:12,832 | INFO | ============================================================
+2026-07-01 11:27:12,866 | INFO | LuxuryBET v0.1.0
+2026-07-01 11:27:12,869 | INFO | Inicializando sistema...
+2026-07-01 11:27:12,889 | INFO | Banco SQLite iniciado.
+2026-07-01 11:27:12,892 | WARNING | TELEGRAM_TOKEN não configurado.
+2026-07-01 11:27:12,892 | INFO | Telegram iniciado.
+2026-07-01 11:27:12,902 | WARNING | DISCORD_TOKEN não configurado.
+2026-07-01 11:27:12,902 | INFO | Discord iniciado.
+2026-07-01 11:27:12,915 | INFO | Tarefa registrada: heartbeat
+2026-07-01 11:27:12,922 | INFO | Loop do Scheduler iniciado.
+2026-07-01 11:27:12,922 | INFO | Scheduler iniciado.
+2026-07-01 11:27:12,932 | INFO | LuxuryBET Online
+2026-07-01 11:27:12,941 | INFO | Sistema iniciado.
+2026-07-01 11:27:12,951 | INFO | ============================================================
+2026-07-01 11:27:23,086 | INFO | LuxuryBET Online
+2026-07-01 11:27:33,168 | INFO | LuxuryBET Online
+2026-07-01 11:27:43,294 | INFO | LuxuryBET Online
+2026-07-01 11:27:53,460 | INFO | LuxuryBET Online
+2026-07-01 11:28:03,625 | INFO | LuxuryBET Online
+2026-07-01 11:28:13,648 | INFO | LuxuryBET Online
+2026-07-01 11:28:23,805 | INFO | LuxuryBET Online
+2026-07-01 11:28:33,844 | INFO | LuxuryBET Online
+2026-07-01 11:28:43,967 | INFO | LuxuryBET Online
+2026-07-01 11:28:54,049 | INFO | LuxuryBET Online
+2026-07-01 11:29:04,069 | INFO | LuxuryBET Online
+2026-07-01 11:29:14,199 | INFO | LuxuryBET Online
+2026-07-01 11:29:24,376 | INFO | LuxuryBET Online
+2026-07-01 11:29:34,521 | INFO | LuxuryBET Online
+2026-07-01 11:29:44,676 | INFO | LuxuryBET Online
+2026-07-01 11:29:54,787 | INFO | LuxuryBET Online
+2026-07-01 11:30:04,878 | INFO | LuxuryBET Online
+2026-07-01 11:30:15,013 | INFO | LuxuryBET Online
+2026-07-01 11:30:25,086 | INFO | LuxuryBET Online
+2026-07-01 11:30:35,154 | INFO | LuxuryBET Online
+2026-07-01 11:30:45,249 | INFO | LuxuryBET Online
+2026-07-01 11:30:55,353 | INFO | LuxuryBET Online
+2026-07-01 11:31:05,493 | INFO | LuxuryBET Online
+2026-07-01 11:31:14,075 | INFO | Encerrando sistema...
+2026-07-01 11:31:14,078 | INFO | Telegram parado.
+2026-07-01 11:31:14,080 | INFO | Scheduler parado.
+2026-07-01 11:31:14,082 | INFO | LuxuryBET encerrado.
+2026-07-01 11:31:17,406 | INFO | ============================================================
+2026-07-01 11:31:17,421 | INFO | LuxuryBET v0.1.0
+2026-07-01 11:31:17,423 | INFO | Inicializando sistema...
+2026-07-01 11:31:17,429 | INFO | Banco SQLite iniciado.
+2026-07-01 11:31:17,438 | WARNING | TELEGRAM_TOKEN não configurado.
+2026-07-01 11:31:17,439 | INFO | Telegram iniciado.
+2026-07-01 11:31:17,444 | WARNING | DISCORD_TOKEN não configurado.
+2026-07-01 11:31:17,444 | INFO | Discord iniciado.
+2026-07-01 11:31:17,454 | INFO | Telegram registrado no Notifier.
+2026-07-01 11:31:17,456 | INFO | Discord registrado no Notifier.
+2026-07-01 11:31:17,460 | INFO | [NOTIFIER] LuxuryBET
+2026-07-01 11:31:17,462 | INFO | Mensagem preparada para Telegram.
+2026-07-01 11:31:17,470 | INFO | Mensagem preparada para Discord.
+2026-07-01 11:31:17,473 | INFO | Tarefa registrada: heartbeat
+2026-07-01 11:31:17,476 | INFO | Loop do Scheduler iniciado.
+2026-07-01 11:31:17,476 | INFO | Scheduler iniciado.
+2026-07-01 11:31:17,479 | INFO | LuxuryBET Online
+2026-07-01 11:31:17,487 | INFO | Sistema iniciado.
+2026-07-01 11:31:17,496 | INFO | ============================================================
+2026-07-01 11:31:27,621 | INFO | LuxuryBET Online
+2026-07-01 11:31:37,772 | INFO | LuxuryBET Online
+2026-07-01 11:31:47,260 | INFO | Encerrando sistema...
+2026-07-01 11:31:47,263 | INFO | Telegram parado.
+2026-07-01 11:31:47,265 | INFO | Scheduler parado.
+2026-07-01 11:31:47,266 | INFO | LuxuryBET encerrado.
