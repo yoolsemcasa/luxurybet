@@ -22,32 +22,20 @@ class Notifier:
 
     def send(self, title, message):
 
-        logger.info(f"[NOTIFIER] {title}")
+        logger.info(f"[EVENTO] {title}")
 
         texto = f"{title}\n\n{message}"
 
         if self.telegram:
 
-            try:
+            logger.info("Evento disponível para Telegram.")
 
-                logger.info("Mensagem preparada para Telegram.")
-
-                # Futuramente:
-                # self.telegram.send_message(...)
-
-            except Exception as e:
-
-                logger.exception(e)
+            # Futuramente:
+            # self.telegram.send_message(chat_id, texto)
 
         if self.discord:
 
-            try:
+            logger.info("Evento disponível para Discord.")
 
-                logger.info("Mensagem preparada para Discord.")
-
-                # Futuramente:
-                # self.discord.send_message(...)
-
-            except Exception as e:
-
-                logger.exception(e)
+            # Futuramente:
+            # self.discord.send_message(canal_id, texto)

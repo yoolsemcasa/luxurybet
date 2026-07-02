@@ -12,6 +12,9 @@ from services.notifier import Notifier
 from collector.manager import CollectorManager
 
 from analyzer.aviator import AviatorAnalyzer
+from analyzer.mines import MinesAnalyzer
+
+from signals.signal_engine import SignalEngine
 
 class Application:
 
@@ -34,6 +37,12 @@ class Application:
         self.aviator_analyzer = AviatorAnalyzer(
         self.repository
         )
+
+        self.mines_analyzer = MinesAnalyzer(
+        self.repository
+        )
+
+        self.signal_engine = SignalEngine()
 
     def initialize(self):
 

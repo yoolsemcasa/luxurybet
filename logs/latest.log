@@ -339,3 +339,294 @@
 2026-07-01 22:20:01,413 | INFO | Discord parado.
 2026-07-01 22:20:01,417 | INFO | Scheduler parado.
 2026-07-01 22:20:01,420 | INFO | LuxuryBET encerrado.
+2026-07-02 11:18:12,748 | INFO | Criando Application...
+2026-07-02 11:18:12,770 | INFO | ============================================================
+2026-07-02 11:18:12,772 | INFO | LuxuryBET v0.1.0
+2026-07-02 11:18:12,773 | INFO | Inicializando sistema...
+2026-07-02 11:18:12,792 | INFO | Banco SQLite iniciado.
+2026-07-02 11:18:12,794 | INFO | Inicializando serviços...
+2026-07-02 11:18:12,796 | WARNING | TELEGRAM_TOKEN não configurado.
+2026-07-02 11:18:12,796 | INFO | Telegram iniciado.
+2026-07-02 11:18:12,805 | WARNING | DISCORD_TOKEN não configurado.
+2026-07-02 11:18:12,805 | INFO | Discord iniciado.
+2026-07-02 11:18:12,808 | INFO | Telegram registrado no Notifier.
+2026-07-02 11:18:12,809 | INFO | Discord registrado no Notifier.
+2026-07-02 11:18:12,812 | INFO | Collector registrado: AVIATOR
+2026-07-02 11:18:12,824 | INFO | Collector registrado: MINES
+2026-07-02 11:18:12,830 | INFO | Tarefa registrada: heartbeat
+2026-07-02 11:18:12,832 | INFO | Tarefa registrada: collector
+2026-07-02 11:18:12,838 | INFO | Loop do Scheduler iniciado.
+2026-07-02 11:18:12,838 | INFO | Scheduler iniciado.
+2026-07-02 11:18:12,840 | INFO | LuxuryBET Online
+2026-07-02 11:18:12,841 | INFO | [NOTIFIER] LuxuryBET
+2026-07-02 11:18:12,842 | INFO | Executando coletores...
+2026-07-02 11:18:12,844 | INFO | Mensagem preparada para Telegram.
+2026-07-02 11:18:12,846 | INFO | [AVIATOR] Executando coleta...
+2026-07-02 11:18:12,847 | INFO | Mensagem preparada para Discord.
+2026-07-02 11:18:12,849 | INFO | [MINES] Executando coleta...
+2026-07-02 11:18:12,853 | INFO | Sistema iniciado.
+2026-07-02 11:18:12,860 | INFO | ============================================================
+2026-07-02 11:18:12,875 | INFO | 2 coletores executados.
+2026-07-02 11:18:12,881 | INFO | ===== AVIATOR =====
+2026-07-02 11:18:12,883 | INFO | Rodadas: 23
+2026-07-02 11:18:12,887 | INFO | Média: 7.18x
+2026-07-02 11:18:12,889 | INFO | Maior: 14.52x
+2026-07-02 11:18:12,890 | INFO | Menor: 1.57x
+2026-07-02 11:18:12,892 | INFO | >=2x: 95.65%
+2026-07-02 11:18:12,893 | INFO | >=5x: 56.52%
+2026-07-02 11:18:12,895 | INFO | >=10x: 30.43%
+2026-07-02 11:18:12,901 | INFO | ===== MINES =====
+2026-07-02 11:18:12,904 | INFO | Rodadas: 23
+2026-07-02 11:18:12,905 | INFO | Distribuição de minas: {3: 4, 7: 5, 4: 4, 6: 6, 5: 4}
+2026-07-02 11:18:12,907 | INFO | Posições menos frequentes: [(0, 34.78), (22, 34.78), (5, 39.13), (14, 39.13), (21, 39.13)]
+2026-07-02 11:18:12,909 | INFO | Posições mais frequentes: [(8, 69.57), (20, 69.57), (2, 65.22), (4, 65.22), (24, 65.22)]
+2026-07-02 11:18:12,911 | INFO | Coleta salva no banco.
+2026-07-02 11:18:12,913 | INFO | 2 coletores executados.
+2026-07-02 11:18:12,916 | INFO | Coleta salva no banco.
+2026-07-02 11:18:17,971 | INFO | Executando coletores...
+2026-07-02 11:18:17,974 | INFO | [AVIATOR] Executando coleta...
+2026-07-02 11:18:17,977 | INFO | [MINES] Executando coleta...
+2026-07-02 11:18:18,002 | INFO | 2 coletores executados.
+2026-07-02 11:18:18,007 | INFO | ===== AVIATOR =====
+2026-07-02 11:18:18,009 | INFO | Rodadas: 24
+2026-07-02 11:18:18,011 | INFO | Média: 7.36x
+2026-07-02 11:18:18,013 | INFO | Maior: 14.52x
+2026-07-02 11:18:18,020 | INFO | Menor: 1.57x
+2026-07-02 11:18:18,025 | INFO | >=2x: 95.83%
+2026-07-02 11:18:18,036 | INFO | >=5x: 58.33%
+2026-07-02 11:18:18,038 | INFO | >=10x: 33.33%
+2026-07-02 11:18:18,043 | INFO | ===== MINES =====
+2026-07-02 11:18:18,045 | INFO | Rodadas: 24
+2026-07-02 11:18:18,051 | INFO | Distribuição de minas: {6: 7, 3: 4, 7: 5, 4: 4, 5: 4}
+2026-07-02 11:18:18,054 | INFO | Posições menos frequentes: [(22, 33.33), (0, 37.5), (14, 37.5), (21, 37.5), (5, 41.67)]
+2026-07-02 11:18:18,058 | INFO | Posições mais frequentes: [(8, 70.83), (20, 66.67), (24, 66.67), (2, 62.5), (4, 62.5)]
+2026-07-02 11:18:18,060 | INFO | Coleta salva no banco.
+2026-07-02 11:18:18,062 | INFO | 2 coletores executados.
+2026-07-02 11:18:18,069 | INFO | Coleta salva no banco.
+2026-07-02 11:18:22,919 | INFO | LuxuryBET Online
+2026-07-02 11:18:23,122 | INFO | Executando coletores...
+2026-07-02 11:18:23,125 | INFO | [AVIATOR] Executando coleta...
+2026-07-02 11:18:23,128 | INFO | [MINES] Executando coleta...
+2026-07-02 11:18:23,170 | INFO | 2 coletores executados.
+2026-07-02 11:18:23,174 | INFO | ===== AVIATOR =====
+2026-07-02 11:18:23,176 | INFO | Rodadas: 25
+2026-07-02 11:18:23,179 | INFO | Média: 7.52x
+2026-07-02 11:18:23,185 | INFO | Maior: 14.52x
+2026-07-02 11:18:23,188 | INFO | Menor: 1.57x
+2026-07-02 11:18:23,191 | INFO | >=2x: 96.0%
+2026-07-02 11:18:23,193 | INFO | >=5x: 60.0%
+2026-07-02 11:18:23,203 | INFO | >=10x: 36.0%
+2026-07-02 11:18:23,208 | INFO | ===== MINES =====
+2026-07-02 11:18:23,211 | INFO | Rodadas: 25
+2026-07-02 11:18:23,213 | INFO | Distribuição de minas: {7: 6, 6: 7, 3: 4, 4: 4, 5: 4}
+2026-07-02 11:18:23,220 | INFO | Posições menos frequentes: [(14, 36.0), (22, 36.0), (0, 40.0), (21, 40.0), (5, 44.0)]
+2026-07-02 11:18:23,224 | INFO | Posições mais frequentes: [(8, 68.0), (20, 68.0), (4, 64.0), (24, 64.0), (2, 60.0)]
+2026-07-02 11:18:23,227 | INFO | Coleta salva no banco.
+2026-07-02 11:18:23,233 | INFO | 2 coletores executados.
+2026-07-02 11:18:23,236 | INFO | Coleta salva no banco.
+2026-07-02 11:18:28,270 | INFO | Executando coletores...
+2026-07-02 11:18:28,273 | INFO | [AVIATOR] Executando coleta...
+2026-07-02 11:18:28,277 | INFO | [MINES] Executando coleta...
+2026-07-02 11:18:28,301 | INFO | 2 coletores executados.
+2026-07-02 11:18:28,304 | INFO | ===== AVIATOR =====
+2026-07-02 11:18:28,306 | INFO | Rodadas: 26
+2026-07-02 11:18:28,309 | INFO | Média: 7.29x
+2026-07-02 11:18:28,316 | INFO | Maior: 14.52x
+2026-07-02 11:18:28,318 | INFO | Menor: 1.39x
+2026-07-02 11:18:28,320 | INFO | >=2x: 92.31%
+2026-07-02 11:18:28,324 | INFO | >=5x: 57.69%
+2026-07-02 11:18:28,326 | INFO | >=10x: 34.62%
+2026-07-02 11:18:28,335 | INFO | ===== MINES =====
+2026-07-02 11:18:28,337 | INFO | Rodadas: 26
+2026-07-02 11:18:28,339 | INFO | Distribuição de minas: {6: 8, 7: 6, 3: 4, 4: 4, 5: 4}
+2026-07-02 11:18:28,344 | INFO | Posições menos frequentes: [(22, 34.62), (0, 38.46), (14, 38.46), (5, 42.31), (6, 42.31)]
+2026-07-02 11:18:28,351 | INFO | Posições mais frequentes: [(20, 69.23), (4, 65.38), (8, 65.38), (24, 65.38), (7, 61.54)]
+2026-07-02 11:18:28,353 | INFO | Coleta salva no banco.
+2026-07-02 11:18:28,355 | INFO | 2 coletores executados.
+2026-07-02 11:18:28,358 | INFO | Coleta salva no banco.
+2026-07-02 11:18:30,519 | INFO | Encerrando sistema...
+2026-07-02 11:18:30,521 | INFO | Telegram parado.
+2026-07-02 11:18:30,524 | INFO | Discord parado.
+2026-07-02 11:18:30,526 | INFO | Scheduler parado.
+2026-07-02 11:18:30,533 | INFO | LuxuryBET encerrado.
+2026-07-02 11:25:18,983 | INFO | Criando Application...
+2026-07-02 11:25:19,002 | INFO | ============================================================
+2026-07-02 11:25:19,008 | INFO | LuxuryBET v0.1.0
+2026-07-02 11:25:19,011 | INFO | Inicializando sistema...
+2026-07-02 11:25:19,023 | INFO | Banco SQLite iniciado.
+2026-07-02 11:25:19,027 | INFO | Inicializando serviços...
+2026-07-02 11:25:19,030 | WARNING | TELEGRAM_TOKEN não configurado.
+2026-07-02 11:25:19,030 | INFO | Telegram iniciado.
+2026-07-02 11:25:19,040 | WARNING | DISCORD_TOKEN não configurado.
+2026-07-02 11:25:19,040 | INFO | Discord iniciado.
+2026-07-02 11:25:19,046 | INFO | Telegram registrado no Notifier.
+2026-07-02 11:25:19,052 | INFO | Discord registrado no Notifier.
+2026-07-02 11:25:19,055 | INFO | Collector registrado: AVIATOR
+2026-07-02 11:25:19,057 | INFO | Collector registrado: MINES
+2026-07-02 11:25:19,060 | INFO | Tarefa registrada: heartbeat
+2026-07-02 11:25:19,062 | INFO | Tarefa registrada: collector
+2026-07-02 11:25:19,065 | INFO | Loop do Scheduler iniciado.
+2026-07-02 11:25:19,070 | INFO | Scheduler iniciado.
+2026-07-02 11:25:19,073 | INFO | LuxuryBET Online
+2026-07-02 11:25:19,075 | INFO | [EVENTO] LuxuryBET
+2026-07-02 11:25:19,077 | INFO | Executando coletores...
+2026-07-02 11:25:19,080 | INFO | Evento disponível para Telegram.
+2026-07-02 11:25:19,087 | INFO | [AVIATOR] Executando coleta...
+2026-07-02 11:25:19,090 | INFO | Evento disponível para Discord.
+2026-07-02 11:25:19,091 | INFO | [MINES] Executando coleta...
+2026-07-02 11:25:19,095 | INFO | Sistema iniciado.
+2026-07-02 11:25:19,107 | INFO | ============================================================
+2026-07-02 11:25:19,121 | INFO | 2 coletores executados.
+2026-07-02 11:25:19,128 | INFO | ===== AVIATOR =====
+2026-07-02 11:25:19,131 | INFO | Rodadas: 27
+2026-07-02 11:25:19,138 | INFO | Média: 7.13x
+2026-07-02 11:25:19,144 | INFO | Maior: 14.52x
+2026-07-02 11:25:19,146 | INFO | Menor: 1.39x
+2026-07-02 11:25:19,148 | INFO | >=2x: 92.59%
+2026-07-02 11:25:19,154 | INFO | >=5x: 55.56%
+2026-07-02 11:25:19,157 | INFO | >=10x: 33.33%
+2026-07-02 11:25:19,163 | INFO | ===== MINES =====
+2026-07-02 11:25:19,167 | INFO | Rodadas: 27
+2026-07-02 11:25:19,174 | INFO | Distribuição de minas: {4: 5, 6: 8, 7: 6, 3: 4, 5: 4}
+2026-07-02 11:25:19,176 | INFO | Posições menos frequentes: [(0, 37.04), (22, 37.04), (11, 40.74), (14, 40.74), (21, 40.74)]
+2026-07-02 11:25:19,178 | INFO | Posições mais frequentes: [(4, 66.67), (8, 66.67), (20, 66.67), (24, 62.96), (7, 59.26)]
+2026-07-02 11:25:19,182 | INFO | Coleta salva no banco.
+2026-07-02 11:25:19,188 | INFO | 2 coletores executados.
+2026-07-02 11:25:19,191 | INFO | Coleta salva no banco.
+2026-07-02 11:25:19,194 | INFO | [INFO] Aviator
+2026-07-02 11:25:19,197 | INFO | Média histórica acima do limite configurado.
+2026-07-02 11:25:19,202 | INFO | [EVENTO] Aviator
+2026-07-02 11:25:19,205 | INFO | Evento disponível para Telegram.
+2026-07-02 11:25:19,210 | INFO | Evento disponível para Discord.
+2026-07-02 11:25:24,105 | INFO | Executando coletores...
+2026-07-02 11:25:24,110 | INFO | [AVIATOR] Executando coleta...
+2026-07-02 11:25:24,125 | INFO | [MINES] Executando coleta...
+2026-07-02 11:25:24,156 | INFO | 2 coletores executados.
+2026-07-02 11:25:24,167 | INFO | ===== AVIATOR =====
+2026-07-02 11:25:24,194 | INFO | Rodadas: 28
+2026-07-02 11:25:24,196 | INFO | Média: 7.16x
+2026-07-02 11:25:24,202 | INFO | Maior: 14.52x
+2026-07-02 11:25:24,205 | INFO | Menor: 1.39x
+2026-07-02 11:25:24,211 | INFO | >=2x: 92.86%
+2026-07-02 11:25:24,308 | INFO | >=5x: 57.14%
+2026-07-02 11:25:24,327 | INFO | >=10x: 32.14%
+2026-07-02 11:25:24,344 | INFO | ===== MINES =====
+2026-07-02 11:25:24,358 | INFO | Rodadas: 28
+2026-07-02 11:25:24,364 | INFO | Distribuição de minas: {4: 6, 6: 8, 7: 6, 3: 4, 5: 4}
+2026-07-02 11:25:24,371 | INFO | Posições menos frequentes: [(0, 35.71), (21, 39.29), (22, 39.29), (11, 42.86), (14, 42.86)]
+2026-07-02 11:25:24,375 | INFO | Posições mais frequentes: [(8, 67.86), (20, 67.86), (4, 64.29), (7, 60.71), (24, 60.71)]
+2026-07-02 11:25:24,378 | INFO | Coleta salva no banco.
+2026-07-02 11:25:24,380 | INFO | 2 coletores executados.
+2026-07-02 11:25:24,388 | INFO | Coleta salva no banco.
+2026-07-02 11:25:24,392 | INFO | [INFO] Aviator
+2026-07-02 11:25:24,395 | INFO | Média histórica acima do limite configurado.
+2026-07-02 11:25:24,403 | INFO | [EVENTO] Aviator
+2026-07-02 11:25:24,406 | INFO | Evento disponível para Telegram.
+2026-07-02 11:25:24,411 | INFO | Evento disponível para Discord.
+2026-07-02 11:25:29,116 | INFO | LuxuryBET Online
+2026-07-02 11:25:29,119 | INFO | Executando coletores...
+2026-07-02 11:25:29,121 | INFO | [AVIATOR] Executando coleta...
+2026-07-02 11:25:29,126 | INFO | [MINES] Executando coleta...
+2026-07-02 11:25:29,155 | INFO | 2 coletores executados.
+2026-07-02 11:25:29,159 | INFO | ===== AVIATOR =====
+2026-07-02 11:25:29,162 | INFO | Rodadas: 29
+2026-07-02 11:25:29,290 | INFO | Média: 7.37x
+2026-07-02 11:25:29,303 | INFO | Maior: 14.52x
+2026-07-02 11:25:29,306 | INFO | Menor: 1.39x
+2026-07-02 11:25:29,311 | INFO | >=2x: 93.1%
+2026-07-02 11:25:29,327 | INFO | >=5x: 58.62%
+2026-07-02 11:25:29,338 | INFO | >=10x: 34.48%
+2026-07-02 11:25:29,355 | INFO | ===== MINES =====
+2026-07-02 11:25:29,360 | INFO | Rodadas: 29
+2026-07-02 11:25:29,362 | INFO | Distribuição de minas: {3: 5, 4: 6, 6: 8, 7: 6, 5: 4}
+2026-07-02 11:25:29,378 | INFO | Posições menos frequentes: [(0, 37.93), (14, 41.38), (21, 41.38), (22, 41.38), (5, 44.83)]
+2026-07-02 11:25:29,392 | INFO | Posições mais frequentes: [(8, 68.97), (20, 68.97), (4, 62.07), (7, 62.07), (24, 62.07)]
+2026-07-02 11:25:29,406 | INFO | Coleta salva no banco.
+2026-07-02 11:25:29,408 | INFO | 2 coletores executados.
+2026-07-02 11:25:29,410 | INFO | Coleta salva no banco.
+2026-07-02 11:25:29,421 | INFO | [INFO] Aviator
+2026-07-02 11:25:29,424 | INFO | Média histórica acima do limite configurado.
+2026-07-02 11:25:29,437 | INFO | [EVENTO] Aviator
+2026-07-02 11:25:29,458 | INFO | Evento disponível para Telegram.
+2026-07-02 11:25:29,472 | INFO | Evento disponível para Discord.
+2026-07-02 11:25:34,269 | INFO | Executando coletores...
+2026-07-02 11:25:34,272 | INFO | [AVIATOR] Executando coleta...
+2026-07-02 11:25:34,287 | INFO | [MINES] Executando coleta...
+2026-07-02 11:25:34,309 | INFO | 2 coletores executados.
+2026-07-02 11:25:34,318 | INFO | ===== AVIATOR =====
+2026-07-02 11:25:34,321 | INFO | Rodadas: 30
+2026-07-02 11:25:34,324 | INFO | Média: 7.21x
+2026-07-02 11:25:34,325 | INFO | Maior: 14.52x
+2026-07-02 11:25:34,327 | INFO | Menor: 1.39x
+2026-07-02 11:25:34,339 | INFO | >=2x: 93.33%
+2026-07-02 11:25:34,340 | INFO | >=5x: 56.67%
+2026-07-02 11:25:34,342 | INFO | >=10x: 33.33%
+2026-07-02 11:25:34,350 | INFO | ===== MINES =====
+2026-07-02 11:25:34,352 | INFO | Rodadas: 30
+2026-07-02 11:25:34,354 | INFO | Distribuição de minas: {7: 7, 3: 5, 4: 6, 6: 8, 5: 4}
+2026-07-02 11:25:34,358 | INFO | Posições menos frequentes: [(0, 40.0), (21, 40.0), (14, 43.33), (19, 43.33), (22, 43.33)]
+2026-07-02 11:25:34,366 | INFO | Posições mais frequentes: [(20, 70.0), (8, 66.67), (4, 63.33), (24, 63.33), (7, 60.0)]
+2026-07-02 11:25:34,369 | INFO | Coleta salva no banco.
+2026-07-02 11:25:34,371 | INFO | 2 coletores executados.
+2026-07-02 11:25:34,374 | INFO | Coleta salva no banco.
+2026-07-02 11:25:34,387 | INFO | [INFO] Aviator
+2026-07-02 11:25:34,391 | INFO | Média histórica acima do limite configurado.
+2026-07-02 11:25:34,393 | INFO | [EVENTO] Aviator
+2026-07-02 11:25:34,400 | INFO | Evento disponível para Telegram.
+2026-07-02 11:25:34,402 | INFO | Evento disponível para Discord.
+2026-07-02 11:25:39,247 | INFO | LuxuryBET Online
+2026-07-02 11:25:39,450 | INFO | Executando coletores...
+2026-07-02 11:25:39,453 | INFO | [AVIATOR] Executando coleta...
+2026-07-02 11:25:39,456 | INFO | [MINES] Executando coleta...
+2026-07-02 11:25:39,471 | INFO | 2 coletores executados.
+2026-07-02 11:25:39,475 | INFO | ===== AVIATOR =====
+2026-07-02 11:25:39,481 | INFO | Rodadas: 31
+2026-07-02 11:25:39,483 | INFO | Média: 7.45x
+2026-07-02 11:25:39,485 | INFO | Maior: 14.7x
+2026-07-02 11:25:39,487 | INFO | Menor: 1.39x
+2026-07-02 11:25:39,490 | INFO | >=2x: 93.55%
+2026-07-02 11:25:39,497 | INFO | >=5x: 58.06%
+2026-07-02 11:25:39,501 | INFO | >=10x: 35.48%
+2026-07-02 11:25:39,507 | INFO | ===== MINES =====
+2026-07-02 11:25:39,516 | INFO | Rodadas: 31
+2026-07-02 11:25:39,519 | INFO | Distribuição de minas: {7: 8, 3: 5, 4: 6, 6: 8, 5: 4}
+2026-07-02 11:25:39,522 | INFO | Posições menos frequentes: [(21, 38.71), (0, 41.94), (14, 41.94), (19, 41.94), (9, 45.16)]
+2026-07-02 11:25:39,525 | INFO | Posições mais frequentes: [(20, 70.97), (4, 64.52), (8, 64.52), (7, 61.29), (18, 61.29)]
+2026-07-02 11:25:39,532 | INFO | Coleta salva no banco.
+2026-07-02 11:25:39,534 | INFO | 2 coletores executados.
+2026-07-02 11:25:39,538 | INFO | Coleta salva no banco.
+2026-07-02 11:25:39,540 | INFO | [INFO] Aviator
+2026-07-02 11:25:39,549 | INFO | Média histórica acima do limite configurado.
+2026-07-02 11:25:39,551 | INFO | [EVENTO] Aviator
+2026-07-02 11:25:39,555 | INFO | Evento disponível para Telegram.
+2026-07-02 11:25:39,557 | INFO | Evento disponível para Discord.
+2026-07-02 11:25:44,606 | INFO | Executando coletores...
+2026-07-02 11:25:44,612 | INFO | [AVIATOR] Executando coleta...
+2026-07-02 11:25:44,616 | INFO | [MINES] Executando coleta...
+2026-07-02 11:25:44,633 | INFO | 2 coletores executados.
+2026-07-02 11:25:44,637 | INFO | ===== AVIATOR =====
+2026-07-02 11:25:44,639 | INFO | Rodadas: 32
+2026-07-02 11:25:44,644 | INFO | Média: 7.57x
+2026-07-02 11:25:44,654 | INFO | Maior: 14.7x
+2026-07-02 11:25:44,657 | INFO | Menor: 1.39x
+2026-07-02 11:25:44,664 | INFO | >=2x: 93.75%
+2026-07-02 11:25:44,666 | INFO | >=5x: 59.38%
+2026-07-02 11:25:44,668 | INFO | >=10x: 37.5%
+2026-07-02 11:25:44,677 | INFO | ===== MINES =====
+2026-07-02 11:25:44,680 | INFO | Rodadas: 32
+2026-07-02 11:25:44,682 | INFO | Distribuição de minas: {6: 9, 7: 8, 3: 5, 4: 6, 5: 4}
+2026-07-02 11:25:44,685 | INFO | Posições menos frequentes: [(21, 37.5), (0, 43.75), (14, 43.75), (19, 43.75), (23, 43.75)]
+2026-07-02 11:25:44,687 | INFO | Posições mais frequentes: [(20, 68.75), (4, 65.62), (8, 65.62), (18, 62.5), (24, 62.5)]
+2026-07-02 11:25:44,689 | INFO | Coleta salva no banco.
+2026-07-02 11:25:44,696 | INFO | 2 coletores executados.
+2026-07-02 11:25:44,701 | INFO | Coleta salva no banco.
+2026-07-02 11:25:44,704 | INFO | [INFO] Aviator
+2026-07-02 11:25:44,706 | INFO | Média histórica acima do limite configurado.
+2026-07-02 11:25:44,714 | INFO | [EVENTO] Aviator
+2026-07-02 11:25:44,716 | INFO | Evento disponível para Telegram.
+2026-07-02 11:25:44,719 | INFO | Evento disponível para Discord.
+2026-07-02 11:25:47,198 | INFO | Encerrando sistema...
+2026-07-02 11:25:47,201 | INFO | Telegram parado.
+2026-07-02 11:25:47,203 | INFO | Discord parado.
+2026-07-02 11:25:47,206 | INFO | Scheduler parado.
+2026-07-02 11:25:47,214 | INFO | LuxuryBET encerrado.

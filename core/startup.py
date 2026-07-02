@@ -1,3 +1,5 @@
+from flask import signals
+
 from database.init_db import init_database
 
 from logs.logger import logger
@@ -78,12 +80,49 @@ def collector_job():
         logger.info(
             f">=10x: {stats['above_10']}%"
         )
+        mines_stats = app.mines_analyzer.analyze(100)
 
-    logger.info("Coleta salva no banco.")
+    if mines_stats:
 
-    logger.info(f"{len(resultados)} coletores executados.")
+        logger.info("===== MINES =====")
 
-    logger.info("Coleta salva no banco.")
+        logger.info(
+        f"Rodadas: {mines_stats['total']}"
+        )
+
+        logger.info(
+        f"Distribuição de minas: {mines_stats['mines']}"
+        )
+
+        logger.info(
+        f"Posições menos frequentes: {mines_stats['safest']}"
+        )
+
+        logger.info(
+        f"Posições mais frequentes: {mines_stats['riskiest']}"
+        )
+
+        logger.info("Coleta salva no banco.")
+
+        logger.info(f"{len(resultados)} coletores executados.")
+
+        logger.info("Coleta salva no banco.")
+
+        signals = app.signal_engine.generate(
+        stats,
+        mines_stats
+        )
+
+    for signal in signals:
+
+        logger.info(f"[{signal.level}] {signal.title}")
+
+        logger.info(signal.message)
+
+        app.notifier.send(
+        signal.title,
+        signal.message
+        )
 
 
 # ==========================================

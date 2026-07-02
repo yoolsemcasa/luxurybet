@@ -6,3 +6,6 @@ rich
 colorama
 schedule
 sqlalchemy
+fastapi
+uvicorn
+jinja2
