@@ -1,5 +1,3 @@
-from flask import signals
-
 from database.init_db import init_database
 
 from logs.logger import logger
@@ -105,8 +103,6 @@ def collector_job():
         logger.info("Coleta salva no banco.")
 
         logger.info(f"{len(resultados)} coletores executados.")
-
-        logger.info("Coleta salva no banco.")
 
         signals = app.signal_engine.generate(
         stats,
