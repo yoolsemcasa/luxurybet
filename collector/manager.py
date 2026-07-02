@@ -17,10 +17,24 @@ class CollectorManager:
 
         logger.info("Executando coletores...")
 
-        results = {}
+        results = []
 
         for collector in self.collectors:
 
-            results[collector.name] = collector.run()
+            data = collector.run()
+
+            if data:
+
+                results.append(
+
+                    (
+
+                        collector.name,
+
+                        data
+
+                    )
+
+                )
 
         return results

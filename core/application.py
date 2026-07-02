@@ -5,6 +5,8 @@ from core.scheduler import Scheduler
 from bots.telegram_bot import TelegramBot
 from bots.discord_bot import DiscordBot
 
+from database.repository import Repository
+
 from services.notifier import Notifier
 
 from collector.manager import CollectorManager
@@ -25,6 +27,8 @@ class Application:
         self.notifier = Notifier()
 
         self.collector_manager = CollectorManager()
+
+        self.repository = Repository()
 
     def initialize(self):
 

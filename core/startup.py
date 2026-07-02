@@ -22,8 +22,27 @@ def collector_job():
 
     resultados = app.collector_manager.execute()
 
-    logger.info(resultados)
+    for game, data in resultados:
 
+        if game == "AVIATOR":
+
+            app.repository.save_aviator(
+
+                data["multiplier"]
+
+            )
+
+        elif game == "MINES":
+
+            app.repository.save_mines(
+
+                data["mines"],
+
+                data["board"]
+
+            )
+
+    logger.info("Coleta salva no banco.")
 
 def startup():
 
