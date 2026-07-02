@@ -11,6 +11,7 @@ from services.notifier import Notifier
 
 from collector.manager import CollectorManager
 
+from analyzer.aviator import AviatorAnalyzer
 
 class Application:
 
@@ -29,6 +30,10 @@ class Application:
         self.collector_manager = CollectorManager()
 
         self.repository = Repository()
+
+        self.aviator_analyzer = AviatorAnalyzer(
+        self.repository
+        )
 
     def initialize(self):
 

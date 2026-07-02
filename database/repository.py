@@ -1,3 +1,5 @@
+from datetime import datetime, timedelta
+
 from database.database import SessionLocal
 
 from database.models import (
@@ -8,23 +10,44 @@ from database.models import (
 
 class Repository:
 
-    def __init__(self):
-
-        self.db = SessionLocal()
-
     # ===========================
     # AVIATOR
     # ===========================
 
     def save_aviator(self, multiplier):
 
-        row = AviatorHistory(
-            multiplier=multiplier
-        )
+        db = SessionLocal()
 
-        self.db.add(row)
+        try:
 
-        self.db.commit()
+            row = AviatorHistory(
+                multiplier=multiplier
+            )
+
+            db.add(row)
+
+            db.commit()
+
+        finally:
+
+            db.close()
+
+    def get_last_aviator(self, limit=100):
+
+        db = SessionLocal()
+
+        try:
+
+            return (
+                db.query(AviatorHistory)
+                .order_by(AviatorHistory.id.desc())
+                .limit(limit)
+                .all()
+            )
+
+        finally:
+
+            db.close()
 
     # ===========================
     # MINES
@@ -32,14 +55,120 @@ class Repository:
 
     def save_mines(self, mines, board):
 
-        row = MinesHistory(
+        db = SessionLocal()
 
-            mines=mines,
+        try:
 
-            board=str(board)
+            row = MinesHistory(
+                mines=mines,
+                board=str(board)
+            )
 
-        )
+            db.add(row)
 
-        self.db.add(row)
+            db.commit()
 
-        self.db.commit()
+        finally:
+
+            db.close()
+
+    def get_last_mines(self, limit=100):
+
+        db = SessionLocal()
+
+        try:
+
+            return (
+                db.query(MinesHistory)
+                .order_by(MinesHistory.id.desc())
+                .limit(limit)
+                .all()
+            )
+
+        finally:
+
+            db.close()
+
+    # ===========================
+    # CONSULTAS GERAIS
+    # ===========================
+
+    def get_aviator_today(self):
+
+        db = SessionLocal()
+
+        try:
+
+            today = datetime.now().date()
+
+            return (
+                db.query(AviatorHistory)
+                .filter(
+                    AviatorHistory.created_at >= today
+                )
+                .all()
+            )
+
+        finally:
+
+            db.close()
+
+    def get_mines_today(self):
+
+        db = SessionLocal()
+
+        try:
+
+            today = datetime.now().date()
+
+            return (
+                db.query(MinesHistory)
+                .filter(
+                    MinesHistory.created_at >= today
+                )
+                .all()
+            )
+
+        finally:
+
+            db.close()
+
+    def get_aviator_last_hour(self):
+
+        db = SessionLocal()
+
+        try:
+
+            hour = datetime.now() - timedelta(hours=1)
+
+            return (
+                db.query(AviatorHistory)
+                .filter(
+                    AviatorHistory.created_at >= hour
+                )
+                .all()
+            )
+
+        finally:
+
+            db.close()
+
+    def get_mines_last_hour(self):
+
+        db = SessionLocal()
+
+        try:
+
+            hour = datetime.now() - timedelta(hours=1)
+
+            return (
+                db.query(MinesHistory)
+                .filter(
+                    MinesHistory.created_at >= hour
+                )
+                .all()
+            )
+
+        finally:
+
+            db.close()

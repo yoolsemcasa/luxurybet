@@ -13,6 +13,10 @@ from collector.mines import MinesCollector
 app = Application()
 
 
+# ==========================================
+# Tarefas do Scheduler
+# ==========================================
+
 def heartbeat():
 
     logger.info("LuxuryBET Online")
@@ -27,22 +31,64 @@ def collector_job():
         if game == "AVIATOR":
 
             app.repository.save_aviator(
-
                 data["multiplier"]
-
             )
 
         elif game == "MINES":
 
             app.repository.save_mines(
-
                 data["mines"],
-
                 data["board"]
-
             )
 
+    logger.info(
+        f"{len(resultados)} coletores executados."
+    )
+
+    stats = app.aviator_analyzer.analyze(100)
+
+    if stats:
+
+        logger.info("===== AVIATOR =====")
+
+        logger.info(
+            f"Rodadas: {stats['total']}"
+        )
+
+        logger.info(
+            f"Média: {stats['average']}x"
+        )
+
+        logger.info(
+            f"Maior: {stats['highest']}x"
+        )
+
+        logger.info(
+            f"Menor: {stats['lowest']}x"
+        )
+
+        logger.info(
+            f">=2x: {stats['above_2']}%"
+        )
+
+        logger.info(
+            f">=5x: {stats['above_5']}%"
+        )
+
+        logger.info(
+            f">=10x: {stats['above_10']}%"
+        )
+
     logger.info("Coleta salva no banco.")
+
+    logger.info(f"{len(resultados)} coletores executados.")
+
+    logger.info("Coleta salva no banco.")
+
+
+# ==========================================
+# Inicialização do Sistema
+# ==========================================
 
 def startup():
 
@@ -52,16 +98,24 @@ def startup():
 
     logger.info("Inicializando sistema...")
 
+    # Banco de Dados
     init_database()
 
     logger.info("Banco SQLite iniciado.")
 
+    # Inicializa os serviços
     app.initialize()
 
-    app.collector_manager.register(AviatorCollector())
+    # Registra os coletores
+    app.collector_manager.register(
+        AviatorCollector()
+    )
 
-    app.collector_manager.register(MinesCollector())
+    app.collector_manager.register(
+        MinesCollector()
+    )
 
+    # Scheduler
     app.scheduler.add_task(
         "heartbeat",
         10,

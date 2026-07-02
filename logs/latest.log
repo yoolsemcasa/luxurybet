@@ -164,3 +164,178 @@
 2026-07-01 21:39:32,398 | INFO | Discord parado.
 2026-07-01 21:39:32,415 | INFO | Scheduler parado.
 2026-07-01 21:39:32,418 | INFO | LuxuryBET encerrado.
+2026-07-01 22:11:17,343 | INFO | Criando Application...
+2026-07-01 22:11:17,362 | INFO | ============================================================
+2026-07-01 22:11:17,365 | INFO | LuxuryBET v0.1.0
+2026-07-01 22:11:17,368 | INFO | Inicializando sistema...
+2026-07-01 22:11:17,385 | INFO | Banco SQLite iniciado.
+2026-07-01 22:11:17,392 | INFO | Inicializando serviços...
+2026-07-01 22:11:17,396 | WARNING | TELEGRAM_TOKEN não configurado.
+2026-07-01 22:11:17,396 | INFO | Telegram iniciado.
+2026-07-01 22:11:17,415 | WARNING | DISCORD_TOKEN não configurado.
+2026-07-01 22:11:17,415 | INFO | Discord iniciado.
+2026-07-01 22:11:17,428 | INFO | Telegram registrado no Notifier.
+2026-07-01 22:11:17,432 | INFO | Discord registrado no Notifier.
+2026-07-01 22:11:17,437 | INFO | Collector registrado: AVIATOR
+2026-07-01 22:11:17,441 | INFO | Collector registrado: MINES
+2026-07-01 22:11:17,446 | INFO | Tarefa registrada: heartbeat
+2026-07-01 22:11:17,448 | INFO | Tarefa registrada: collector
+2026-07-01 22:11:17,460 | INFO | Últimos registros Aviator: 5
+2026-07-01 22:11:17,464 | INFO | Loop do Scheduler iniciado.
+2026-07-01 22:11:17,464 | INFO | Scheduler iniciado.
+2026-07-01 22:11:17,466 | INFO | LuxuryBET Online
+2026-07-01 22:11:17,470 | INFO | [NOTIFIER] LuxuryBET
+2026-07-01 22:11:17,477 | INFO | Executando coletores...
+2026-07-01 22:11:17,479 | INFO | Mensagem preparada para Telegram.
+2026-07-01 22:11:17,497 | INFO | [AVIATOR] Executando coleta...
+2026-07-01 22:11:17,501 | INFO | Mensagem preparada para Discord.
+2026-07-01 22:11:17,508 | INFO | [MINES] Executando coleta...
+2026-07-01 22:11:17,514 | INFO | Sistema iniciado.
+2026-07-01 22:11:17,526 | INFO | ============================================================
+2026-07-01 22:11:17,536 | INFO | Coleta salva no banco.
+2026-07-01 22:11:22,642 | INFO | Executando coletores...
+2026-07-01 22:11:22,647 | INFO | [AVIATOR] Executando coleta...
+2026-07-01 22:11:22,665 | INFO | [MINES] Executando coleta...
+2026-07-01 22:11:22,690 | INFO | Coleta salva no banco.
+2026-07-01 22:11:27,584 | INFO | LuxuryBET Online
+2026-07-01 22:11:27,794 | INFO | Executando coletores...
+2026-07-01 22:11:27,799 | INFO | [AVIATOR] Executando coleta...
+2026-07-01 22:11:27,814 | INFO | [MINES] Executando coleta...
+2026-07-01 22:11:27,967 | INFO | Coleta salva no banco.
+2026-07-01 22:11:32,851 | INFO | Executando coletores...
+2026-07-01 22:11:32,859 | INFO | [AVIATOR] Executando coleta...
+2026-07-01 22:11:32,865 | INFO | [MINES] Executando coleta...
+2026-07-01 22:11:32,892 | INFO | Coleta salva no banco.
+2026-07-01 22:11:36,353 | INFO | Encerrando sistema...
+2026-07-01 22:11:36,356 | INFO | Telegram parado.
+2026-07-01 22:11:36,357 | INFO | Discord parado.
+2026-07-01 22:11:36,359 | INFO | Scheduler parado.
+2026-07-01 22:11:36,361 | INFO | Loop do Scheduler encerrado.
+2026-07-01 22:11:36,362 | INFO | LuxuryBET encerrado.
+2026-07-01 22:14:17,176 | INFO | Criando Application...
+2026-07-01 22:14:17,205 | INFO | ============================================================
+2026-07-01 22:14:17,212 | INFO | LuxuryBET v0.1.0
+2026-07-01 22:14:17,221 | INFO | Inicializando sistema...
+2026-07-01 22:14:17,228 | INFO | Banco SQLite iniciado.
+2026-07-01 22:14:17,240 | INFO | Inicializando serviços...
+2026-07-01 22:14:17,243 | WARNING | TELEGRAM_TOKEN não configurado.
+2026-07-01 22:14:17,243 | INFO | Telegram iniciado.
+2026-07-01 22:14:17,258 | WARNING | DISCORD_TOKEN não configurado.
+2026-07-01 22:14:17,258 | INFO | Discord iniciado.
+2026-07-01 22:14:17,270 | INFO | Telegram registrado no Notifier.
+2026-07-01 22:14:17,277 | INFO | Discord registrado no Notifier.
+2026-07-01 22:14:17,280 | INFO | Collector registrado: AVIATOR
+2026-07-01 22:14:17,287 | INFO | Collector registrado: MINES
+2026-07-01 22:14:17,289 | INFO | Tarefa registrada: heartbeat
+2026-07-01 22:14:17,292 | INFO | Tarefa registrada: collector
+2026-07-01 22:14:17,301 | INFO | Últimos registros Aviator: 5
+2026-07-01 22:14:17,309 | INFO | Loop do Scheduler iniciado.
+2026-07-01 22:14:17,309 | INFO | Scheduler iniciado.
+2026-07-01 22:14:17,322 | INFO | LuxuryBET Online
+2026-07-01 22:14:17,325 | INFO | [NOTIFIER] LuxuryBET
+2026-07-01 22:14:17,327 | INFO | Executando coletores...
+2026-07-01 22:14:17,329 | INFO | Mensagem preparada para Telegram.
+2026-07-01 22:14:17,331 | INFO | [AVIATOR] Executando coleta...
+2026-07-01 22:14:17,338 | INFO | Mensagem preparada para Discord.
+2026-07-01 22:14:17,340 | INFO | [MINES] Executando coleta...
+2026-07-01 22:14:17,343 | INFO | Sistema iniciado.
+2026-07-01 22:14:17,355 | INFO | ============================================================
+2026-07-01 22:14:17,371 | INFO | 2 coletores executados.
+2026-07-01 22:14:17,373 | INFO | Coleta salva no banco.
+2026-07-01 22:14:22,453 | INFO | Executando coletores...
+2026-07-01 22:14:22,457 | INFO | [AVIATOR] Executando coleta...
+2026-07-01 22:14:22,459 | INFO | [MINES] Executando coleta...
+2026-07-01 22:14:22,485 | INFO | 2 coletores executados.
+2026-07-01 22:14:22,489 | INFO | Coleta salva no banco.
+2026-07-01 22:14:27,420 | INFO | LuxuryBET Online
+2026-07-01 22:14:27,624 | INFO | Executando coletores...
+2026-07-01 22:14:27,626 | INFO | [AVIATOR] Executando coleta...
+2026-07-01 22:14:27,635 | INFO | [MINES] Executando coleta...
+2026-07-01 22:14:27,655 | INFO | 2 coletores executados.
+2026-07-01 22:14:27,657 | INFO | Coleta salva no banco.
+2026-07-01 22:14:32,801 | INFO | Executando coletores...
+2026-07-01 22:14:32,805 | INFO | [AVIATOR] Executando coleta...
+2026-07-01 22:14:32,808 | INFO | [MINES] Executando coleta...
+2026-07-01 22:14:32,825 | INFO | 2 coletores executados.
+2026-07-01 22:14:32,834 | INFO | Coleta salva no banco.
+2026-07-01 22:14:37,497 | INFO | LuxuryBET Online
+2026-07-01 22:14:37,905 | INFO | Executando coletores...
+2026-07-01 22:14:37,910 | INFO | [AVIATOR] Executando coleta...
+2026-07-01 22:14:37,920 | INFO | [MINES] Executando coleta...
+2026-07-01 22:14:37,978 | INFO | 2 coletores executados.
+2026-07-01 22:14:38,005 | INFO | Coleta salva no banco.
+2026-07-01 22:14:43,050 | INFO | Executando coletores...
+2026-07-01 22:14:43,053 | INFO | [AVIATOR] Executando coleta...
+2026-07-01 22:14:43,055 | INFO | [MINES] Executando coleta...
+2026-07-01 22:14:43,077 | INFO | 2 coletores executados.
+2026-07-01 22:14:43,081 | INFO | Coleta salva no banco.
+2026-07-01 22:14:47,521 | INFO | LuxuryBET Online
+2026-07-01 22:14:48,130 | INFO | Executando coletores...
+2026-07-01 22:14:48,135 | INFO | [AVIATOR] Executando coleta...
+2026-07-01 22:14:48,137 | INFO | [MINES] Executando coleta...
+2026-07-01 22:14:48,159 | INFO | 2 coletores executados.
+2026-07-01 22:14:48,161 | INFO | Coleta salva no banco.
+2026-07-01 22:14:48,270 | INFO | Encerrando sistema...
+2026-07-01 22:14:48,275 | INFO | Telegram parado.
+2026-07-01 22:14:48,279 | INFO | Discord parado.
+2026-07-01 22:14:48,293 | INFO | Scheduler parado.
+2026-07-01 22:14:48,295 | INFO | LuxuryBET encerrado.
+2026-07-01 22:19:51,720 | INFO | Criando Application...
+2026-07-01 22:19:51,742 | INFO | ============================================================
+2026-07-01 22:19:51,753 | INFO | LuxuryBET v0.1.0
+2026-07-01 22:19:51,757 | INFO | Inicializando sistema...
+2026-07-01 22:19:51,767 | INFO | Banco SQLite iniciado.
+2026-07-01 22:19:51,770 | INFO | Inicializando serviços...
+2026-07-01 22:19:51,774 | WARNING | TELEGRAM_TOKEN não configurado.
+2026-07-01 22:19:51,774 | INFO | Telegram iniciado.
+2026-07-01 22:19:51,784 | WARNING | DISCORD_TOKEN não configurado.
+2026-07-01 22:19:51,784 | INFO | Discord iniciado.
+2026-07-01 22:19:51,789 | INFO | Telegram registrado no Notifier.
+2026-07-01 22:19:51,793 | INFO | Discord registrado no Notifier.
+2026-07-01 22:19:51,799 | INFO | Collector registrado: AVIATOR
+2026-07-01 22:19:51,801 | INFO | Collector registrado: MINES
+2026-07-01 22:19:51,802 | INFO | Tarefa registrada: heartbeat
+2026-07-01 22:19:51,806 | INFO | Tarefa registrada: collector
+2026-07-01 22:19:51,808 | INFO | Loop do Scheduler iniciado.
+2026-07-01 22:19:51,808 | INFO | Scheduler iniciado.
+2026-07-01 22:19:51,814 | INFO | LuxuryBET Online
+2026-07-01 22:19:51,817 | INFO | [NOTIFIER] LuxuryBET
+2026-07-01 22:19:51,819 | INFO | Executando coletores...
+2026-07-01 22:19:51,822 | INFO | Mensagem preparada para Telegram.
+2026-07-01 22:19:51,824 | INFO | [AVIATOR] Executando coleta...
+2026-07-01 22:19:51,826 | INFO | Mensagem preparada para Discord.
+2026-07-01 22:19:51,832 | INFO | [MINES] Executando coleta...
+2026-07-01 22:19:51,835 | INFO | Sistema iniciado.
+2026-07-01 22:19:51,849 | INFO | ============================================================
+2026-07-01 22:19:51,859 | INFO | 2 coletores executados.
+2026-07-01 22:19:51,870 | INFO | ===== AVIATOR =====
+2026-07-01 22:19:51,874 | INFO | Rodadas: 21
+2026-07-01 22:19:51,875 | INFO | Média: 7.4x
+2026-07-01 22:19:51,883 | INFO | Maior: 14.52x
+2026-07-01 22:19:51,885 | INFO | Menor: 1.57x
+2026-07-01 22:19:51,887 | INFO | >=2x: 95.24%
+2026-07-01 22:19:51,890 | INFO | >=5x: 57.14%
+2026-07-01 22:19:51,893 | INFO | >=10x: 33.33%
+2026-07-01 22:19:51,899 | INFO | Coleta salva no banco.
+2026-07-01 22:19:51,901 | INFO | 2 coletores executados.
+2026-07-01 22:19:51,903 | INFO | Coleta salva no banco.
+2026-07-01 22:19:56,988 | INFO | Executando coletores...
+2026-07-01 22:19:56,995 | INFO | [AVIATOR] Executando coleta...
+2026-07-01 22:19:57,001 | INFO | [MINES] Executando coleta...
+2026-07-01 22:19:57,017 | INFO | 2 coletores executados.
+2026-07-01 22:19:57,020 | INFO | ===== AVIATOR =====
+2026-07-01 22:19:57,022 | INFO | Rodadas: 22
+2026-07-01 22:19:57,028 | INFO | Média: 7.39x
+2026-07-01 22:19:57,034 | INFO | Maior: 14.52x
+2026-07-01 22:19:57,038 | INFO | Menor: 1.57x
+2026-07-01 22:19:57,040 | INFO | >=2x: 95.45%
+2026-07-01 22:19:57,048 | INFO | >=5x: 59.09%
+2026-07-01 22:19:57,052 | INFO | >=10x: 31.82%
+2026-07-01 22:19:57,057 | INFO | Coleta salva no banco.
+2026-07-01 22:19:57,064 | INFO | 2 coletores executados.
+2026-07-01 22:19:57,070 | INFO | Coleta salva no banco.
+2026-07-01 22:20:01,405 | INFO | Encerrando sistema...
+2026-07-01 22:20:01,410 | INFO | Telegram parado.
+2026-07-01 22:20:01,413 | INFO | Discord parado.
+2026-07-01 22:20:01,417 | INFO | Scheduler parado.
+2026-07-01 22:20:01,420 | INFO | LuxuryBET encerrado.
